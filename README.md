@@ -44,7 +44,7 @@ You can customize the package behavior by modifying the settings in `config/pdf2
 
 ## Support and Issues
 
-For any issues or feature requests, please [open an issue](https://github.com/your-username/pdf2webview/issues) on GitHub.
+For any issues or feature requests, please [open an issue](https://github.com/Nandakyawwin/pdf2webview/issues) on GitHub.
 
 ## License
 
