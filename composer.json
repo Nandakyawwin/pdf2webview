@@ -1,0 +1,28 @@
+{
+    "name": "nandakyawwinn/pdf2webview",
+    "description": "A package to upload and convert PDF to HTML with style.",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0",
+        "tecnickcom/tcpdf": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nandakyawwinn\\Pdf2webview\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nandakyawwinn\\Pdf2webview\\Pdf2webviewServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
